@@ -55,7 +55,7 @@ jobs:
       - name: Checkout kustomize repository
         uses: actions/checkout@v2
         with:
-          repository: 2023-AMF-let-me-go/k8s-manifest-repo
+          repository: dev-salteed/eks-test-k8s-manifests
           ref: main
           token: ${{ secrets.ACTION_TOKEN }}
           path: k8s-manifest-repo
