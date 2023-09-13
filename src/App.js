@@ -66,7 +66,7 @@ function App(props) {
           <Typography variant="h6" align="center" className={classes.title}>
             EKS ArgoCD 적용 테스트
           </Typography>
-          {new Date().toLocaleTimeString()}
+          {new Date().toLocaleString()}
         </Toolbar>
       </AppBar>
       <br />
