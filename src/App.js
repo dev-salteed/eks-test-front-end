@@ -64,7 +64,7 @@ function App(props) {
             <CloudIcon />
           </IconButton>
           <Typography variant="h6" align="center" className={classes.title}>
-            EKS ArgoCD 적용 테스트kkc2334
+            EKS ArgoCD 적용 테스트kkc23341111
           </Typography>
           {new Date().toLocaleTimeString()}
         </Toolbar>
